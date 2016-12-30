@@ -1,10 +1,10 @@
-// Any Valid JS is valid TS
+// Any Valid JS is also valid TS
 
-function greeter(person) {
-    return "Hello, " + person;
+function greeter(name) {
+    return "Hello, " + name;
 }
 
-const user = "Shahjada Talukdar";
+const name = "Shahjada Talukdar";
 
-const result = greeter(user);
+let result = greeter(name);
 console.log(result);
