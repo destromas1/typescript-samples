@@ -5,6 +5,14 @@ function typedFunction(name : string) {
 
 const user = "Shahjada Talukdar";
 
-let result = typedFunction(user);
+var result:any = typedFunction(user);
 console.log(result);
 
+
+function add(num1:number,num2:number): number {
+    return num1 + num2;
+}
+
+result = add(5, 3);
+
+console.log(result);
